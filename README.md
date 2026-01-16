@@ -1,12 +1,18 @@
 
+---
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
 
 
 # 1. Cài đặt công cụ, môi trường và các thư viện cần thiết
 
 ## 1.1. Clone project.
-git clone https://github.com/hieupham10032003/odoo.git
+git clone https://github.com/danglehoanganh/DangLeHoangAnh-TTDN-16-01-N11.git
 git checkout 
 
 ## 1.2. cài đặt các thư viện cần thiết
