@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- TREE VIEW -->
+    <record id="view_finance_entry_tree" model="ir.ui.view">
+        <field name="name">finance.entry.tree</field>
+        <field name="model">tai_chinh_ke_toan.entry</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="date"/>
+                <field name="entry_type"/>
+                <field name="amount"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- FORM VIEW -->
+    <record id="view_finance_entry_form" model="ir.ui.view">
+        <field name="name">finance.entry.form</field>
+        <field name="model">tai_chinh_ke_toan.entry</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name" readonly="1"/>
+                        <field name="date"/>
+                        <field name="entry_type"/>
+                        <field name="amount"/>
+                        <field name="description"/>
+                        <field name="state" readonly="1"/>
+                    </group>
+                    <footer>
+                        <button name="action_confirm"
+                                string="Xác nhận"
+                                type="object"
+                                states="draft"
+                                class="btn-primary"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- ACTION -->
+    <record id="action_finance_entry" model="ir.actions.act_window">
+        <field name="name">Quản lý Khâu Hao</field>
+        <field name="res_model">tai_chinh_ke_toan.entry</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- MENU -->
+    <menuitem id="menu_tai_chinh_root"
+              name="Tài chính / Kế toán"
+              sequence="10"/>
+
+    <menuitem id="menu_finance_entry"
+              name="Thu Chi"
+              parent="menu_tai_chinh_root"
+              action="action_finance_entry"/>
+
+</odoo>

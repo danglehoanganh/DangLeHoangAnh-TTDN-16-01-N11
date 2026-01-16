@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="seq_finance_entry" model="ir.sequence">
+        <field name="name">Depreciation Calculation</field>
+        <field name="code">tai_chinh_ke_toan.entry</field>
+        <field name="prefix">KH/%(year)s/</field>
+        <field name="padding">5</field>
+    </record>
+</odoo>

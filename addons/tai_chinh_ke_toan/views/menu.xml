@@ -1,0 +1,25 @@
+<odoo>
+
+    <menuitem id="menu_tai_chinh_root"
+              name="Tài chính / Kế toán"
+              sequence="10"/>
+
+    <menuitem id="menu_finance_entry"
+              name="Khấu hao tài sản"
+              parent="menu_tai_chinh_root"
+              action="action_finance_entry"
+              sequence="10"/>
+
+    <menuitem id="menu_journal_entry"
+              name="Bút toán"
+              parent="menu_tai_chinh_root"
+              action="action_journal_entry"
+              sequence="20"/>
+
+    <menuitem id="menu_ledger"
+              name="Sổ cái"
+              parent="menu_tai_chinh_root"
+              action="action_ledger"
+              sequence="30"/>
+
+</odoo>

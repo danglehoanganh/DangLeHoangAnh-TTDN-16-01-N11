@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_finance_entry,access_finance_entry,model_tai_chinh_ke_toan_entry,,1,1,1,1

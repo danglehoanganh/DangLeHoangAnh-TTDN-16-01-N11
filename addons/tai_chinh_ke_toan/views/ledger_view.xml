@@ -1,0 +1,27 @@
+<odoo>
+    <record id="action_finance_ledger" model="ir.actions.act_window">
+        <field name="name">Sổ cái</field>
+        <field name="res_model">tai_chinh_ke_toan.ledger</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem id="menu_finance_ledger"
+              name="Sổ cái"
+              parent="menu_finance_root"
+              action="action_finance_ledger"/>
+
+    <record id="view_finance_ledger_tree" model="ir.ui.view">
+        <field name="name">finance.ledger.tree</field>
+        <field name="model">tai_chinh_ke_toan.ledger</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="date"/>
+                <field name="account_id"/>
+                <field name="journal_entry_id"/>
+                <field name="debit"/>
+                <field name="credit"/>
+                <field name="balance"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
