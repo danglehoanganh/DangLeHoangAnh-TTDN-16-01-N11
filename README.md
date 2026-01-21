@@ -4,13 +4,13 @@
     </a>
 </h2>
 <h2 align="center">
-    PLATFORM ERP
+   Quản Lý Tài Sản
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/logo/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img src="aiotlab_logo (1).png" alt="AIoTLab Logo" width="170"/>
+        <img src="fitdnu_logo (1).png" alt="AIoTLab Logo" width="180"/>
+        <img src="dnu_logo (1).png" alt="DaiNam University Logo" width="200"/>
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
