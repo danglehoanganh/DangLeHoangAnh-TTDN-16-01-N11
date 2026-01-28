@@ -31,6 +31,16 @@
 </div>
 
 
+
+## 👥 Thành viên nhóm 11
+
+| No. | Name          |
+|-----|---------------|
+| 1   | Đặng Lê Hoàng Anh  |
+| 2   | Mai Đức Hòa    |
+| 3   | Nguyễn Khôi Nguyên      |
+
+
 # 1. Cài đặt công cụ, môi trường và các thư viện cần thiết
 
 ## 1.1. Clone project.
@@ -134,6 +144,13 @@ Tại giao diện quản lý, các chứng từ kế toán được hiển thị
 Các khoản chi như mua sắm, bảo trì tài sản sẽ được ghi nhận trực tiếp vào hệ thống kế toán.
 Dữ liệu này có thể được sử dụng để tổng hợp báo cáo tài chính, theo dõi chi phí và phục vụ công tác quản trị doanh nghiệp.
 Việc tích hợp giữa quản lý tài sản và kế toán giúp giảm thiểu nhập liệu thủ công, đồng thời đảm bảo tính nhất quán của dữ liệu.
+
+## Kết luận
+
+Đề tài đã tập trung thiết kế và triển khai một hệ thống quản lý tài sản và kế toán doanh nghiệp nhằm hỗ trợ tự động hóa các nghiệp vụ quản lý tài sản, ghi nhận kế toán và tổng hợp dữ liệu tài chính. Thông qua việc xây dựng các mô-đun chức năng rõ ràng, hệ thống giúp nâng cao tính chính xác, minh bạch và hiệu quả trong quá trình quản lý.
+Kết quả đạt được cho thấy hệ thống có khả năng đáp ứng các yêu cầu cơ bản của doanh nghiệp, đồng thời tạo nền tảng để mở rộng và tích hợp thêm các chức năng nâng cao trong tương lai như báo cáo phân tích, phân quyền chi tiết và kết nối với các hệ thống quản trị khác. Đây là tiền đề quan trọng để ứng dụng hệ thống vào thực tiễn quản lý doanh nghiệp.
+
+
 
 
 
