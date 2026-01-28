@@ -93,3 +93,47 @@ Người sử dụng truy cập theo đường dẫn _http://localhost:8069/_ đ
 Hoàn tất
     
 python3 odoo-bin.py -c odoo.conf -u all
+
+# 5. Hình ảnh hệ thống
+
+* Giao diện module nhân viên:
+
+   <p align="center">
+  <img src="Screenshot 2026-01-27 205038.png" alt="GitHub Logo" width="800">
+</p>
+<p align="center">Hình 1</p> 
+Mô tả hệ thống:
+ Tại giao diện module Nhân sự, hệ thống hiển thị danh sách nhân viên của doanh nghiệp.
+Mỗi nhân viên được quản lý với các thông tin cơ bản như họ tên, chức vụ, phòng ban và thông tin liên hệ.
+Module Nhân sự đóng vai trò nền tảng trong hệ thống, bởi nhân viên có thể được liên kết trực tiếp với tài sản trong quá trình sử dụng, bảo trì hoặc quản lý trách nhiệm tài sản.
+Dữ liệu từ module Nhân sự được dùng để xác định người quản lý, người sử dụng tài sản, giúp nâng cao tính minh bạch và khả năng truy vết trong quá trình vận hành.
+
+
+* Giao diện module quản lý tài sản:
+
+   <p align="center">
+  <img src="Screenshot 2026-01-27 145802.png" alt="GitHub Logo" width="800">
+</p>
+<p align="center">Hình 2</p> 
+Mô tả hệ thống:
+ Tại giao diện quản lý tài sản, hệ thống cho phép theo dõi danh sách các tài sản hiện có trong doanh nghiệp.
+Mỗi tài sản bao gồm các thông tin như mã tài sản, tên tài sản, loại tài sản, giá trị, ngày mua, tình trạng và vị trí sử dụng.
+Hệ thống hỗ trợ phân loại tài sản theo từng nhóm như thiết bị hoặc vật tư, đồng thời cho phép lọc nhanh theo tình trạng sử dụng.
+Ngoài ra, người dùng có thể đính kèm hình ảnh để tăng khả năng nhận diện và quản lý trực quan.
+Thông tin tài sản được lưu trữ tập trung và sẵn sàng liên kết với các nghiệp vụ tài chính – kế toán liên quan.
+
+* Giao diện module quản lý tài chính?kế toán:
+
+   <p align="center">
+  <img src="Screenshot 2026-01-27 154008.png" alt="GitHub Logo" width="800">
+</p>
+<p align="center">Hình 3</p> 
+Mô tả hệ thống: 
+Trong module Tài chính – Kế toán, hệ thống quản lý các nghiệp vụ thu và chi phát sinh liên quan đến tài sản.
+Tại giao diện quản lý, các chứng từ kế toán được hiển thị theo ngày, loại giao dịch, số tiền và trạng thái xử lý.
+Các khoản chi như mua sắm, bảo trì tài sản sẽ được ghi nhận trực tiếp vào hệ thống kế toán.
+Dữ liệu này có thể được sử dụng để tổng hợp báo cáo tài chính, theo dõi chi phí và phục vụ công tác quản trị doanh nghiệp.
+Việc tích hợp giữa quản lý tài sản và kế toán giúp giảm thiểu nhập liệu thủ công, đồng thời đảm bảo tính nhất quán của dữ liệu.
+
+
+
