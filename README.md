@@ -1,10 +1,10 @@
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
-    🎓 Asset Management (DaiNam University)
+    🎓 Development of an Asset and Accounting Management System for Enterprises (DaiNam University)
     </a>
 </h2>
 <h2 align="center">
-   Quản Lý Tài Sản
+  Thiết kế và triển khai hệ thống quản lý tài sản và kế toán doanh nghiệp bằng Odoo
 </h2>
 <div align="center">
     <p align="center">
